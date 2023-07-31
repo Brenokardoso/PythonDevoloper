@@ -1,0 +1,4 @@
+#Entendendo o ORM:
+
+ Dialeto = drive conector para que consiga comunicação com o banco de dados
+ As direferentes formas de criar querys irão espelhar na velocidade da busca,querys melhores e mais bem feitas terão o tempo de busca reduzidos

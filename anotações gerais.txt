@@ -1,0 +1,24 @@
+Usando o enumerate você pode cirar índices numéricos em listas de forma automática,usando uma semi espécie de chave e valor:
+for indice,carro in enumerate(carros):
+    print(f"{indice}:{carro}")
+
+
+
+usando a função dict voce pode usar uma lista de tuplas para fazer um dicionario completo
+
+print(f"{self.__class__.__name__}:{','.join([f'{chave}:{valor}' for chave,valor in self.__dict__.items()])}") -->retorna ao dicionário com a chave(parametros) e o valor dos objetos
+
+Sintese de teste de pergunta para o  chat GPT para um melhor retorno de respostas:Você poderia me fornecer informações detalhadas sobre o uso adequado de parâmetros de retorno em dicionários? Gostaria de entender como posso manipular e extrair informações relevantes dos dados retornados por meio de dicionários. Além disso, estou interessado em aprender como lidar com casos em que os dicionários contêm estruturas de dados complexas, como listas ou outros dicionários aninhados. Por favor, forneça exemplos práticos e melhores práticas para me ajudar a utilizar os parâmetros de retorno dos dicionários de forma eficiente
+
+usando o método items() vocẽ retorna a uma tupla correspondente a chave e valor,fica perfeito para quando um dicionario deveria ser mostrado com chave e valor
+
+propriedades são descritoras,não decoradadoras,métodos de descrição envolvem o __init__ __setter__ e __getter__
+O uso do property faz com que os meus métodos de classe se comportem como uma propriedade,no caso então não há necessidade de usar o () durante a aplicação das classes
+
+O classmethod pode acessar diretamente os atributos da classe,ele não depende das instancias de classe(funções) para acessar diretamente
+
+O staticmethod é o contrario do property e do classmethod,ele nã oitera sobre nehum atributo da classe mas sim ele trabalha dentro de uma isntacia de classe especifica que se relaciona a algo importante ou não,
+de toda forma ele tambem pode acessar os método da classe sem a necessidade de criar uma instância 
+
+métodos abstratos são metodos sem implementação nenhuma
+

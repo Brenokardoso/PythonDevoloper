@@ -1,0 +1,2 @@
+Essa será uma sintese de teste para a abertura e dechamento de arquivos em python3,logo quero deixar uma string grande ou de tamanho consideralvel para que a máquina tenha mais a trabalhar
+e fodase o resto msm

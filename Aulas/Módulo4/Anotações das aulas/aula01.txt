@@ -1,0 +1,1 @@
+SQLAchemy trabalha com o ORM,não trabalha com bancos de dados não relacioanis,os NonSQL

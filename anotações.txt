@@ -1,8 +1,0 @@
-Usando o enumerate você pode cirar índices numéricos em listas de forma automática,usando uma semi espécie de chave e valor:
-for indice,carro in enumerate(carros):
-    print(f"{indice}:{carro}")
-
-usando a função dict voce pode usar uma lista de tuplas para fazer um dicionario completo
-
-
-

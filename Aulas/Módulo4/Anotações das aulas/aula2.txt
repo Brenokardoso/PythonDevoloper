@@ -1,0 +1,3 @@
+O ORM traz os dados que estão estruturados nos SGBDS
+SGBS tem um dialeto
+Query é uma cosnulta ao banco de dados,de modo que quando alguém diz que fez uma query foi um método de pesquisa que retornara algum obj ou tabela do banco de dados
